@@ -73,29 +73,28 @@ header {
     gap: 10px;
 }
 
-nav {
+.nav {
     margin-left: auto;
 }
 
-ul li:hover {
+.li1:hover {
     border-top: 2px solid #0065FC;
     color: #0065FC;
     
 }
 
-ul {
+.li2 {
+    border-top: 2px solid white;
+    padding-top: 16px;
+}
+
+.ul {
     display: flex;
     flex-direction: row;
     justify-content: flex-end;
     list-style: none;
     margin: 0;
     gap: 69px;
-}
-
-li {
-    padding-top: 2em;
-    border-top: 2px solid white;
-    padding-top: 16px;
 }
 
 /****** Main ***********/
@@ -199,11 +198,15 @@ footer {
 
 .pied {
     display: flex;
+    padding: 0;
+    margin: 0;
 }
 
 .propos-hebergement-assistance {
-    padding: 20px;
-    gap: 15px;
+    display: flex;
+    padding-left: 20px;
+    height: 163px;
+    width: 446px;
 }
 
 /****** Hebergements et Populaires ***********/
