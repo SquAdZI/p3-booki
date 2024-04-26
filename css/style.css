@@ -193,8 +193,12 @@ form {
 .activites {
     display: flex;
     flex-direction: column;
-    padding: 30px;
+    padding: 35px;
     gap: 30px;
+}
+
+.activites h1 {
+    margin-bottom: 0;
 }
 
 .activite /*activites*/ {
