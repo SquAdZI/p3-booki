@@ -110,6 +110,7 @@ header {
 
 .para1 {
     margin-top: 0px;
+    margin-bottom: 0;
 }
 
 form {
@@ -167,6 +168,7 @@ form {
     display: flex;
     align-items: center;
     padding: 4px 19px;
+    margin: 0;
     gap: 10px;
     height: 40px;
 }
@@ -193,7 +195,7 @@ form {
 .activites {
     display: flex;
     flex-direction: column;
-    padding: 35px;
+    padding: 30px 30px 65px 30px;
     gap: 30px;
 }
 
