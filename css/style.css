@@ -195,7 +195,7 @@ form {
 .activites {
     display: flex;
     flex-direction: column;
-    padding: 30px 30px 65px 30px;
+    padding: 65px 30px;
     gap: 30px;
 }
 
@@ -204,7 +204,8 @@ form {
 }
 
 .activite /*activites*/ {
-    display: flex;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
     gap: 30px;
 }
 
@@ -219,29 +220,35 @@ form {
 }
 
 .img {
-    width: 297px;
+    width: 100%;
     height: 390px;
     border-radius: 20px 20px 0 0;
-    object-fit: none;
+    object-fit: cover;
 }
 
 /****** Le pied ***********/
 
 footer {
     background-color: #F2F2F2;
-}
-
-.pied {
     display: flex;
+    flex-direction: row;
     padding: 0;
     margin: 0;
 }
 
 .propos-hebergement-assistance {
     display: flex;
-    padding-left: 20px;
+    flex-direction: column;
+    padding: 20px;
+    margin: 0;
     height: 163px;
     width: 33%;
+    list-style: none;
+    gap: 15px;
+}
+
+.propos-hebergement-assistance h2 {
+    margin: 0;
 }
 
 /****** Hebergements et Populaires ***********/
