@@ -269,7 +269,8 @@ footer {
 /****** Hebergements ***********/
 .hebergements {
     width: 65%;
-    gap: 30px;
+    display: flex;
+    flex-direction: column;
 }
 
 .section1 {
@@ -278,7 +279,6 @@ footer {
     padding: 5px;
     gap: 4px;
     filter: drop-shadow(0px 3px 15px rgba(0, 0, 0, 0.1));
-    display: inline-flex;
 }
 
 .titre3 {
