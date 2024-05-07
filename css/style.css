@@ -66,36 +66,36 @@ header {
     display: flex;
 }
 
-.logo {
-    display: flex;
-    Height: 19px;
-    padding: 30px 50px 30px 0;
-    gap: 10px;
-}
+    header a {
+        display: flex;
+        Height: 19px;
+        padding: 30px 50px 30px 0;
+        gap: 10px;
+    }
 
-.nav {
-    margin-left: auto;
-}
+        nav {
+        margin-left: auto;
+        }
 
-.li1:hover {
-    border-top: 2px solid #0065FC;
-    color: #0065FC;
+            nav ul {
+                display: flex;
+                flex-direction: row;
+                justify-content: flex-end;
+                list-style: none;
+                margin: 0;
+                gap: 69px;
+            }
+
+                nav li:hover {
+                    border-top: 2px solid #0065FC;
+                    color: #0065FC;
     
-}
+                }
 
-.li2 {
-    border-top: 2px solid white;
-    padding-top: 16px;
-}
-
-.ul {
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-end;
-    list-style: none;
-    margin: 0;
-    gap: 69px;
-}
+                    nav li {
+                        border-top: 2px solid white;
+                        padding-top: 16px;
+                    }
 
 /****** Main ***********/
 .titre {
@@ -241,16 +241,27 @@ footer {
     margin: 0;
 }
 
-.propos-hebergement-assistance {
-    display: flex;
-    flex-direction: column;
-    padding: 20px;
-    margin: 0;
-    height: 163px;
-    width: 33%;
-    list-style: none;
-    gap: 15px;
-}
+    footer div {
+        display: flex;
+        flex-direction: column;
+        padding: 20px;
+        height: 163px;
+        width: 33%;
+        gap: 15px;
+    }
+
+        footer h2 {
+            margin: 0;
+        }
+
+            footer ul {
+                display: flex;
+                flex-direction: column;
+                padding: 0;
+                margin: 0;
+                gap: 15px;
+                list-style: none;
+            }
 
 /****** Hebergements et Populaires ***********/
 .hebergements-and-populaires {
