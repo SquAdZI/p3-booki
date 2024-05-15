@@ -146,6 +146,10 @@ form {
 
 }
 
+#btn-lens {
+    display: none;
+}
+
 .filtre {
     display: flex;
     gap: 15px;
@@ -196,7 +200,7 @@ form {
     font-size: small;
 }
 
-.activites {
+#activites {
     display: flex;
     flex-direction: column;
     padding: 65px 30px;
@@ -285,7 +289,7 @@ footer {
 }
 
 /****** Hebergements ***********/
-.hebergements {
+#hebergements {
     width: 65%;
     display: flex;
     flex-direction: column;
@@ -435,9 +439,7 @@ footer {
 @media (max-width: 768px) {
 
     header {
-        display: grid;
-        justify-content: space-around; 
-        justify-items: center;
+        flex-direction: column;
     }
     
     .main-container{
@@ -445,6 +447,7 @@ footer {
     }
 
     .logo{
+        margin: auto;
         padding: 30px;
     }
 
@@ -453,7 +456,7 @@ footer {
     }
 
     nav {
-
+        margin: auto;
     }
 
     nav ul {
@@ -461,15 +464,30 @@ footer {
     }
 
     nav li:hover {
-
+        border-bottom: 2px solid #0065FC;
+        border-top: none;
     }
 
     nav li {
+        border-bottom: 2px solid #F2F2F2;
         padding: 0;
+        padding-bottom: 15px;
     }
 
     .title {
 
+    }
+
+    .bouton {
+        display: none;
+    }
+
+    #btn-lens {
+        display: block;
+        padding: 15px 16px 15px 16px;
+        border-radius: 15px;
+        background-color: #0065FC;
+        color: white;
     }
 
     .filtre-interieur {
@@ -486,6 +504,10 @@ footer {
     }
 
     .populaires-cards .card {
+
+    }
+
+    . {
 
     }
 
