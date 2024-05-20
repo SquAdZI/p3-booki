@@ -107,6 +107,7 @@ header {
 
 .vacance {
     margin-bottom: 8px;
+    font-size: 22px;
 }
 
 .ville-nature {
@@ -191,7 +192,7 @@ form {
 
 .information i {
     border: 1px solid #D9D9D9;
-    border-radius: 1em;
+    border-radius: 50px;
     width: 24px;
     height: 24px;
     display: flex;
@@ -481,7 +482,8 @@ footer {
     }
 
     .title {
-
+        padding: 0 20px 0 20px;
+        width: 100%;
     }
 
     .bouton {
@@ -501,8 +503,8 @@ footer {
         grid-template-columns: repeat(2,1fr)
     }
 
-    .populaires-title {
-
+    .filtre-interieur p {
+        font-size: 14px;
     }
 
     .populaires-cards {
@@ -513,16 +515,8 @@ footer {
         border-radius: 0;
     }
 
-    .populaires-cards .card {
-
-    }
-
     .populaires-cards a {
         width: 100%;
-    }
-
-    .card-txt {
-        
     }
 
     .hebergements-and-populaires {
@@ -536,18 +530,6 @@ footer {
 
     .hebergement-card {
         grid-template-columns: auto;
-    }
-
-    .hebergement-card article {
-
-    }
-
-    .activites {
-
-    }
-
-    .activites img {
-
     }
 
     .activite {
