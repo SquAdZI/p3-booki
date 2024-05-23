@@ -135,6 +135,7 @@ form {
     font-weight: 700;
     display: flex;
     text-align: center;
+    outline: none;
 }
 
 .bouton {
@@ -476,14 +477,13 @@ footer {
     nav li {
         width: 100%;
         border-bottom: 2px solid #F2F2F2;
-        border-top: 2px solid white;
+        border-top: 0;
         padding: 0;
         padding-bottom: 15px;
     }
 
     .title {
-        padding: 0 20px 0 20px;
-        width: 100%;
+        padding: 0 20px;
     }
 
     .bouton {
@@ -491,16 +491,19 @@ footer {
     }
 
     #btn-lens {
+        position: relative;
+        right: 10px;
         display: block;
         padding: 15px 16px 15px 16px;
         border-radius: 15px;
         background-color: #0065FC;
+        box-shadow: 0 4px 4px #00000040;
         color: white;
     }
 
     .filtre-interieur {
         display: grid;
-        grid-template-columns: repeat(2,1fr)
+        grid-template-columns: 50% 50%;
     }
 
     .filtre-interieur p {
