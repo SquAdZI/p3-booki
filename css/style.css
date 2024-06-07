@@ -520,13 +520,14 @@ footer {
     }
 
     .filtre-interieur {
-        display: grid;
-        grid-template-columns: 50% 50%;
+        display: flex;
+        flex-wrap: wrap;
     }
 
     .filtre-interieur p {
         font-size: 14px;
-        width: 75%;
+        margin: auto;
+        width: 32%;
     }
 
     .information i {
